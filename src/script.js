@@ -26,7 +26,7 @@ const textTexture = textureLoader.load("./textures/matcaps/9.jpg");
 // Fonts
 const fontLoader = new FontLoader();
 
-fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
+fontLoader.load("./fonts/helvetiker_regular.typeface.json", (font) => {
   const textGeometry = new TextGeometry("18 y.o Full Stack talent's website", {
     font: font,
     size: 0.5,
