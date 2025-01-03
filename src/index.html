@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Text</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="background" class="wrapp">
+      <canvas class="webgl" id="canva"></canvas>
+    </div>
+    <!-- <button class="godown">Go down</button> -->
+
+    <a
+      href="https://app.enhancv.com/share/7a9384ed/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"
+      class="cv_link"
+      target="_blank"
+      >My Extended CV</a
+    >
+
+    <div class="socials_box">
+      <p class="social_title">My Socials:</p>
+      <ul>
+        <li class="social_item">
+          <a href="https://www.linkedin.com/in/nikitareva/" target="_blank">
+            <img src="./img/linkedin-color-svgrepo-com.svg" alt="" width="40" />
+            <p>LinkedIn profile</p>
+          </a>
+        </li>
+
+        <li class="social_item">
+          <a href="https://t.me/NikitaReva04" target="_blank"
+            ><img src="./img/telegram-svgrepo-com.svg" alt="" width="40" />
+            <p>Telegram Profile</p></a
+          >
+        </li>
+        <li class="social_item">
+          <a href="https://github.com/Nikita0708" target="_blank">
+            <img src="./img/github-color-svgrepo-com.svg" alt="" width="40" />
+            <p>GitHub</p>
+          </a>
+        </li>
+        <li class="social_item">
+          <a href="https://t.me/nikitasepi0l" target="_blank"
+            ><img src="./img/telegram-svgrepo-com.svg" alt="" width="40" />
+            <p>Telegram Channel</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="lang_box">
+      <p class="social_title">My Languages:</p>
+      <ul>
+        <li class="lang_item">
+          <img
+            src="./img/flag-for-flag-germany-svgrepo-com.svg"
+            alt=""
+            width="50"
+          />
+          <p>German - A1</p>
+        </li>
+        <li class="lang_item">
+          <img src="./img/flag-us-svgrepo-com.svg" alt="" width="50" />
+          <p>English - C1</p>
+        </li>
+        <li class="lang_item">
+          <img src="./img/flag-ua-svgrepo-com.svg" alt="" width="50" />
+          <p>Ukrainian - Native</p>
+        </li>
+        <li class="lang_item">
+          <img src="./img/flag-ru-svgrepo-com.svg" alt="" width="50" />
+          <p>Russian - Spoken at home</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="skills_box">
+      <p class="social_title">My Stack:</p>
+      <ul>
+        <div>
+          <li class="skills_item">
+            <img src="./img/js-svgrepo-com.svg" alt="" width="50" />
+            <p>JavaScript</p>
+          </li>
+          <li class="skills_item">
+            <img src="./img/tailwind-svgrepo-com.svg" alt="" width="50" />
+            <p>Tailwind</p>
+          </li>
+          <li class="skills_item next">
+            <img src="./img/next-dot-js-svgrepo-com.svg" alt="" width="50" />
+            <p>Next.js</p>
+          </li>
+        </div>
+        <div>
+          <li class="skills_item">
+            <img src="./img/react-1-logo-svgrepo-com.svg" alt="" width="50" />
+            <p>React</p>
+          </li>
+          <li class="skills_item">
+            <img src="./img/react-1-logo-svgrepo-com.svg" alt="" width="50" />
+            <p>React Native</p>
+          </li>
+          <li class="skills_item">
+            <img
+              src="./img/typescript-icon-svgrepo-com.svg"
+              alt=""
+              width="50"
+            />
+            <p>Typescript</p>
+          </li>
+        </div>
+      </ul>
+    </div>
+
+    <div class="back_box">
+      <p class="social_title">My Stack:</p>
+      <ul>
+        <div>
+          <li class="skills_item">
+            <img src="./img/node-js-svgrepo-com.svg" alt="" width="50" />
+            <p>Node JS</p>
+          </li>
+          <li class="skills_item">
+            <img src="./img/nestjs-svgrepo-com.svg" alt="" width="50" />
+            <p>Nest JS</p>
+          </li>
+          <li class="skills_item">
+            <img src="./img/postgresql-svgrepo-com.svg" alt="" width="50" />
+            <p>PostgreSQL</p>
+          </li>
+        </div>
+        <div>
+          <li class="skills_item">
+            <img src="./img/mongodb-svgrepo-com.svg" alt="" width="50" />
+            <p>MongoDB</p>
+          </li>
+          <li class="skills_item">
+            <img
+              src="./img/sql-database-sql-azure-svgrepo-com.svg"
+              alt=""
+              width="50"
+            />
+            <p>SQL</p>
+          </li>
+          <li class="skills_item">
+            <img src="./img/swagger-svgrepo-com.svg" alt="" width="50" />
+            <p>Swagger</p>
+          </li>
+        </div>
+      </ul>
+    </div>
+
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.globe.min.js"></script>
+    <script>
+      VANTA.GLOBE({
+        el: "#background",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+      });
+    </script>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

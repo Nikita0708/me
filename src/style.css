@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Prevent scrollbars */
+  font-family: "Montserrat";
+}
+ul li {
+  list-style-type: none;
+}
+
+.cv_link {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  font-weight: 200;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 239593485983;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+.wrapp {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.socials_box {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.841);
+  z-index: 19919999999;
+}
+.skills_box {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.841);
+  z-index: 19919999999;
+}
+
+.back_box {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.841);
+  z-index: 19919999999;
+}
+.back_box ul {
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.back_box div {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+.skills_box ul {
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.skills_box div {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+.skills_item p {
+  color: #fff;
+}
+.skills_item {
+  display: flex;
+  width: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next img {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.lang_box {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.841);
+  z-index: 19919999999;
+}
+
+.lang_box ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.lang_box p {
+  color: white;
+}
+
+.lang_item {
+  font-size: 25px;
+}
+.socials_box p {
+  color: white;
+}
+.social_item a {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.social_item a p {
+  font-size: 25px;
+}
+.social_item {
+  margin-bottom: 10px;
+}
+.social_title {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
