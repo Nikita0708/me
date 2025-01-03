@@ -18,10 +18,10 @@ ul li {
 
 .cv_link {
   color: white;
-  font-size: 30px;
+  font-size: 15px;
   position: absolute;
   font-weight: 200;
-  top: 30px;
+  top: 15px;
   left: 50%;
   transform: translate(-50%);
   z-index: 239593485983;
@@ -46,62 +46,67 @@ a {
 
 .socials_box {
   position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 500px;
-  height: 300px;
+  top: 15px;
+  left: 15px;
+  width: 300px;
+  height: 200px;
   background-color: rgba(0, 0, 0, 0.841);
   z-index: 19919999999;
 }
 .skills_box {
   position: absolute;
-  top: 30px;
-  right: 30px;
-  width: 500px;
-  height: 300px;
+  top: 15px;
+  right: 15px;
+  width: 300px;
+  height: 200px;
   background-color: rgba(0, 0, 0, 0.841);
   z-index: 19919999999;
 }
 
 .back_box {
   position: absolute;
-  bottom: 30px;
-  right: 30px;
-  width: 500px;
-  height: 300px;
+  bottom: 15px;
+  right: 15px;
+  width: 300px;
+  height: 200px;
   background-color: rgba(0, 0, 0, 0.841);
   z-index: 19919999999;
 }
 .back_box ul {
-  margin-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .back_box div {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   justify-content: space-between;
 }
 .skills_box ul {
-  margin-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .skills_box div {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   justify-content: space-between;
 }
 .skills_item p {
   color: #fff;
+  font-size: 12px;
 }
 .skills_item {
   display: flex;
-  width: 40px;
+  width: 20px;
   flex-direction: column;
   align-items: center;
+}
+
+.social_item a p {
+  font-size: 12px;
 }
 
 .next img {
@@ -111,10 +116,10 @@ a {
 }
 .lang_box {
   position: absolute;
-  bottom: 30px;
-  left: 30px;
-  width: 500px;
-  height: 300px;
+  bottom: 15px;
+  left: 15px;
+  width: 300px;
+  height: 200px;
   background-color: rgba(0, 0, 0, 0.841);
   z-index: 19919999999;
 }
@@ -122,8 +127,8 @@ a {
 .lang_box ul li {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
-  gap: 10px;
+  margin-bottom: 5px;
+  gap: 5px;
 }
 
 .lang_box p {
@@ -131,7 +136,7 @@ a {
 }
 
 .lang_item {
-  font-size: 25px;
+  font-size: 12px;
 }
 .socials_box p {
   color: white;
@@ -139,20 +144,20 @@ a {
 .social_item a {
   display: flex;
   align-items: baseline;
-  gap: 10px;
+  gap: 5px;
 }
 
 .social_item a p {
-  font-size: 25px;
+  font-size: 12px;
 }
 .social_item {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .social_title {
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
-  padding-left: 10px;
-  padding-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-top: 5чpx;
 }
